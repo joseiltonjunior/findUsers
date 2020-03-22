@@ -1,29 +1,18 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { StatusBar } from 'react-native';
+import colors from './styles/themes/colors';
 
 import './config/ReactotronConfig';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#333',
-  },
-  text: {
-    fontSize: 30,
-    textAlign: 'center',
-    margin: 10,
-    color: '#ddd',
-  },
-});
-
-console.tron.log('Junior Ferreira');
+import Routes from './routes';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Junior Ferreira</Text>
-    </View>
+    <>
+      <StatusBar
+        backgroundColor={colors.ColorBlackPrimary}
+        barStyle="light-content"
+      />
+      <Routes />
+    </>
   );
 }
