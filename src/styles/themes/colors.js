@@ -4,4 +4,5 @@ export default {
   ColorLightSecondary: '#eee',
   ColorGainsboro: '#DCDCDC',
   ColorBlackSecondary: '#999',
+  ColorLightSemi: '#f5f5f5',
 };

@@ -21,7 +21,7 @@ export const Input = styled.TextInput.attrs({
 })`
   flex: 1;
   height: ${responsiveSize(50)}px;
-  background: ${colors.ColorGainsboro};
+  background: ${colors.ColorLightSecondary};
   border-radius: ${responsiveSize(4)}px;
   padding: ${responsiveSize(0)} ${responsiveSize(15)}px;
   border: ${responsiveSize(1)}px solid ${colors.ColorLightSecondary};
