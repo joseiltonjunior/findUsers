@@ -2,7 +2,7 @@
 
 ### Aplicativo de consulta para usuários do GitHub
 
-Algumas libs e ferramentas utilizadas:<br /><br />
+Algumas libs e ferramentas utilizadas:<br />
 react-native-community/async-storage<br />
 axios<br />
 react-native-gesture-handler<br />
