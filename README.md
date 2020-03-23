@@ -1,6 +1,17 @@
-# Find Users
+# Find Users 
 
-Aplicativo de consulta para usuários do GitHub
+### Aplicativo de consulta para usuários do GitHub
+
+Algumas libs e ferramentas utilizadas:<br /><br />
+react-native-community/async-storage<br />
+axios<br />
+react-native-gesture-handler<br />
+react-navigation<br />
+react-native-vector-icons<br />
+reactotron-react-native<br />
+styled-components<br />
+eslint<br />
+prettier
 
 ## Instação das dependências
 
